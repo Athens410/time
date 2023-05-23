@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MyComponent() {
+function RedComponent() {
   return (
     <div>
       <h1>This is my first React component!</h1>
@@ -9,4 +9,4 @@ function MyComponent() {
   );
 }
 
-export default MyComponent;
+export default RedComponent;

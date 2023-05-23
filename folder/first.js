@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Red from "/red.js";
+import Red from "./folder/red.js";
+
 const First = () => {
   return (
     <div>
@@ -11,4 +12,5 @@ const First = () => {
 };
 
 export default First;
+
 ReactDOM.render(<First />, document.getElementById('root'));
